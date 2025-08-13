@@ -1,6 +1,6 @@
 # Prérequis
 
-- Projet `lab_symfony_7`.
+- Projet `symfony-lab`.
 - `nvm` (Node Version Manager)
 
 # Installation avec nvm
@@ -14,7 +14,7 @@
 
 # Installation avec Docker
 
-Le projet peut aussi être utilisé avec Docker, mais après réflexion, je préfère utiliser Node Version Manager. Je pense que Docker est inutile pour les projets frontend.
+Le projet peut aussi être utilisé avec Docker, mais après réflexion, je préfère utiliser Node Version Manager.
 
 - Construire et démarrer les conteneurs : `docker-compose up --build`
 (Les dépendances JavaScript sont installées automatiquement à cette étape via la commande npm ci intégrée dans le Dockerfile.)
